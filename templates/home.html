@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block body %}
+{% block content %}
    <h3> POSTS</h3>
    <p><a href="{% url 'feed:post' %}" class="btn btn-lg btn-success">Create Post</a></p>
    <div class="row">
@@ -21,4 +21,4 @@
     {% endfor %}
 </div>
 
-{% endblock %}
+{% endblock content%}
